@@ -241,7 +241,7 @@ func execCommandRaw(command string, commandDirectory string, suppressErrors bool
 	head := parts[0]
 	parts = parts[1:len(parts)]
 
-	// fmt.Println(command)
+	fmt.Println(command)
 	cmd := exec.Command(head, parts...)
 	var output bytes.Buffer
 	var stderr bytes.Buffer
