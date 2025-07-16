@@ -43,7 +43,7 @@ citizen-otp-fixed: "123456"
 citizen-otp-fixed-enabled: "true"
 heap: "-Xmx192m -Xms192m"
 java-args: ""
-# java-enable-debug: "true"
+java-enable-debug: "true"
 
 # Additional Container Envs
 env: |
